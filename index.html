@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E commerse</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class=" nav container">
+            <a href="#" class="logo">Ecommerce</a>
+            <!-- cart-icon -->
+            <i class='bx bx-shopping-bag cart-cont' id="cart-icon"></i>    
+        </div>
+    </header>
+     <!-- order box -->
+     <div class="order-container" id="order-container">
+          <h2 class="hedorder"> Your Cart</h2> 
+          <i class='bx bx-x' id="del"></i>
+          <!-- cart content -->
+          <div  class="order-contain">
+          <div class="carty">
+        
+        <img src="/img folder/product6.jpeg" alt="shoe"  class="order-img">
+        <div class="detail-box">
+            <div class="ordername">Shoe</div>
+            <div class="order-prices"> 65</div>
+            <input type="number" value="1" title="order" class="order-quantity" >
+            
+            </div>
+            <i class='bx bxs-trash trash' id="trad"></i>
+          </div>    
+        </div>
+            <!-- Total -->
+              <div class="total">
+                  <div class="total-title" >TOTAL </div>
+                  <div class="grandTotal">#0</div>
+              </div>
+
+        <button type="submit" id="btn-onclick" class="btn">Buy Now</button>
+   </div>
+
+
+    <!-- shop -->
+     <section class="shop-container">
+        <h2 class="section-title">Shop Product</h2>
+        <!-- content -->
+        <div class="shop-content">
+            <!-- box1  -->
+           
+            <div class="product-box">
+                <img src="/img folder/product1.jpeg" alt="ladiesbag" class="product-img">
+                <div class="product-name">Ladies bag</div>
+                <div class="product-price">#500</div>
+                <i class='bx bxs-shopping-bags cart-product'></i>
+              </div>
+              <div class="product-box">
+                <img src="/img folder/product2.jpeg" alt="guybag"  class="product-img">
+                <div class="product-name">Guybag </div>
+                <div class="product-price">#300</div>
+                <i class='bx bxs-shopping-bags cart-product'></i>
+              </div>
+              <div class="product-box">
+                <img src="/img folder/product3.webp" alt="car"  class="product-img">
+                <div class="product-name">AutoMobiles</div>
+                <div class="product-price">#2900</div>
+                <i class='bx bxs-shopping-bags cart-product'></i>
+              </div>
+              <div class="product-box">
+                <img src="/img folder/product4.jpeg" alt="Shot"  class="product-img">
+                <div class="product-name">GuysShot</div>
+                <div class="product-price">#750</div>
+                <i class='bx bxs-shopping-bags cart-product'></i>
+              </div>
+              <div class="product-box">
+                <img src="/img folder/product5.jpeg" alt="Shoe" class="product-img">
+                <div class="product-name">MenShoes</div>
+                <div class="product-price">#200</div>
+                <i class='bx bxs-shopping-bags cart-product'></i>
+                
+                
+              </div>
+
+              <div class="product-box">
+                <img src="/img folder/product6.jpeg" alt="shoe"  class="product-img">
+                <div class="product-name">LadiesShoes</div>
+                <div class="product-price">#70</div>
+                <i class='bx bxs-shopping-bags cart-product'></i>
+              </div>
+              
+             
+        </div>
+     </section>
+
+    <script src="/shopping.js"></script>
+</body>
+</html>
