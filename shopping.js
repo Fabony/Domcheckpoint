@@ -82,19 +82,19 @@ function addProductToCart(title, price, imaged) {
    }
 }
 
-// var cartBoxContent =` 
-// <img src="/img folder/product6.jpeg" alt="shoe"  class="order-img">
-// <div class="detail-box">
-//     <div class="ordername">Shoe</div>
-//     <div class="order-prices">#65</div>
-//     <input type="number" value="1" title="order" class="order-quantity" >
+var cartBoxContent =` 
+<img src="/img folder/product6.jpeg" alt="shoe"  class="order-img">
+<div class="detail-box">
+    <div class="ordername">Shoe</div>
+    <div class="order-prices">#65</div>
+    <input type="number" value="1" title="order" class="order-quantity" >
     
-//     </div>
-//     <i class='bx bxs-trash trash' id="trad"></i>`;
+    </div>
+    <i class='bx bxs-trash trash' id="trad"></i>`;
 
-//     cartShop.innerHtml = cartBoxContent
-//     cartItem.append(cartshop)
-//     cartshop.getElementByClassName("trad")[0].addEventListener("click", removecart)
+    cartShop.innerHtml = cartBoxContent
+    cartItem.append(cartshop)
+    cartshop.getElementByClassName("trad")[0].addEventListener("click", removecart)
 
 
 
